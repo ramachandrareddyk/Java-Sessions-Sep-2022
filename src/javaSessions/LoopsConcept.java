@@ -72,15 +72,53 @@ public class LoopsConcept {
 				System.out.println("Testing");
 			}
 		}
+		System.out.println("=================Even Numbers==================");
+		for(int j=0;j<=10;j=j+2) {
+			System.out.println(j);
+		}
+		
+		for(int j=0;j<=10;j++) {
+			if(j%2==0) {
+				System.out.println("Even number"+j);
+			}else {
+				System.out.println("Odd Number"+j);
+			}
+		}
+		
+		System.out.println("==================odd Numbers=================");
+		for(int j=1;j<=100;j=j+10) {
+			System.out.println(j);
+		}
+		
+		//do while loop
+		int a=1;
+		do {
+			System.out.println(a);
+			a++;
+		}while(a<=10);
+		
 		
 		//Assignment
 		
-		int a=10;
-		int b=20;
 		
-		System.out.println(a);//20
-		System.out.println(b);//10
-		
+		  int c=10;
+		  int b=20;
+		 System.out.println(" Swaping two numbers"); 
+			/*
+			 * int d=c; c=b; b=d;
+			 */
+//		 System.out.println("c value"+c);
+//		 System.out.println("b value"+b);
+		 
+		 c=c+b;//30
+		 b=c-b;//30-20=10
+		 c=c-b;
+		 System.out.println("---------");
+		 System.out.println("c value"+c);
+		 System.out.println("b value"+b);
+		  
+		  //System.out.println(a);//20 System.out.println(b);//10
+		 
 	}
 
 }
